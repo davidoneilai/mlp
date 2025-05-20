@@ -110,6 +110,26 @@ def main():
     plt.savefig(f"imgs/confusion_matrix_{timestamp}.png")
     plt.tight_layout()
     plt.show()
+    
+    wrong_indices = np.where(y_pred != y_test)[0]
+    print(f"Número de erros: {len(wrong_indices)}")
+    
+    num_to_show = 10
+    plt.figure(figsize=(15, 5))
+    for i, idx in enumerate(wrong_indices[:num_to_show]):
+        plt.subplot(1, num_to_show, i + 1)
+        image = x_test[idx].reshape(28, 28)
+        plt.imshow(image, cmap="gray")
+        plt.title(f"V:{y_test[idx]} | P:{y_pred[idx]}")
+        plt.axis("off")
+    plt.suptitle("Exemplos de Classificações Incorretas")
+    plt.tight_layout()
+    plt.show()
+    
+    confused_pairs = np.argwhere((cm > 20) & (np.eye(10) == 0))
+    for i, j in confused_pairs:
+        print(f"Classe {i} frequentemente confundida com {j} ({cm[i,j]} vezes)")
+
 
 
 if __name__ == "__main__":
