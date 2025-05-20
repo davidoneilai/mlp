@@ -65,7 +65,7 @@ async def process_block(indices, block_num, ds, ids_processados, semaphore, gemi
 
 async def main(total_parts=1, part=0):
     load_dotenv()
-    gemini = AsyncGEMINI(model=MODEL_NAME, concurrency=CONCURRENCY, api_key="AIzaSyA23s5ZDPB1GPT1B1sXlr6jQQQzQg6w0D8")
+    gemini = AsyncGEMINI(model=MODEL_NAME, concurrency=CONCURRENCY)
     await gemini.async_init()
 
     ds = load_dataset("fashion_mnist", split=DATASET_SPLIT)
