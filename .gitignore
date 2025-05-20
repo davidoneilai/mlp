@@ -1,8 +1,12 @@
 .conda
 .vscode
-*.csv
+src/data/*.csv
 __pycache__/
 *.py[cod]
 .venv
 model.pkl
+<<<<<<< HEAD
 /data/ids
+=======
+ids/
+>>>>>>> e6512043442256d46eb904b11f90cc6a901b96f8

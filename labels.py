@@ -100,4 +100,8 @@ if __name__ == "__main__":
     parser.add_argument("--part", type=int, default=0)
     args = parser.parse_args()
 
+<<<<<<< HEAD
     asyncio.run(main(total_parts=args.total_parts, part=args.part))
+=======
+    asyncio.run(main(total_parts=args.total_parts, part=args.part))
+>>>>>>> e6512043442256d46eb904b11f90cc6a901b96f8

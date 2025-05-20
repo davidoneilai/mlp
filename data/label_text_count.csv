@@ -1,0 +1,30 @@
+text,count
+CORRECT,847
+Sneaker,41
+Shirt,26
+T-shirt/top,18
+Pullover,17
+Ankle boot,15
+Trouser,10
+Coat,5
+Sandal,4
+Dress,2
+"Não consigo ver a imagem que você mencionou, então não posso verificar se o rótulo ""Sandal"" está correto.",1
+"Não consigo ver a imagem. Portanto, não posso verificar se o rótulo ""Shirt"" está correto para a imagem que você mencionou.",1
+"Não consigo ver a imagem que você mencionou. Portanto, não posso verificar se o rótulo ""Sandal"" está correto para ela.",1
+Bag,1
+"Não consigo ver a imagem. Por favor, forneça a imagem para que eu possa verificar o rótulo.",1
+"Não consigo ver a imagem que você mencionou. Portanto, não posso verificar se a etiqueta ""T-shirt/top"" está correta ou fornecer a etiqueta correta da lista.",1
+Sandália,1
+"Não consigo ver a imagem a que se refere. Para confirmar se a etiqueta ""Sandal"" está correta, preciso ver a imagem.",1
+"Não consigo ver a imagem a que se refere. Por favor, forneça a imagem para que eu possa verificar o rótulo.",1
+"Não foi fornecida uma imagem. Por favor, forneça a imagem para que eu possa verificar o rótulo.",1
+"Não consigo ver a imagem, portanto não posso verificar se o rótulo ""Sandal"" está correto nem determinar qual seria o rótulo correto na lista fornecida.",1
+"Não consigo ver a imagem. Para confirmar ou corrigir o rótulo, preciso da imagem.",1
+"Desculpe, mas não consigo ver a imagem mencionada. Para determinar se o rótulo ""Pullover"" está correto e fornecer a resposta solicitada (""CORRECT"" ou o rótulo correto da lista), preciso da imagem.",1
+"Para que eu possa verificar se a imagem está rotulada corretamente, preciso que você me forneça a imagem.",1
+"Não consigo visualizar a imagem que você mencionou. Sem a imagem, não posso verificar se o rótulo ""Bag"" está correto ou determinar o rótulo apropriado na lista fornecida.
+
+No entanto, para seguir o formato da resposta, se a imagem estivesse visível e mostrasse uma bolsa, a resposta seria: CORRECT. Se mostrasse outro item da lista, seria o nome desse item.
+
+Como não tenho acesso à imagem, não posso fornecer a resposta correta.",1
