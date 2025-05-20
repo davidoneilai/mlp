@@ -1,6 +1,6 @@
 .conda
 .vscode
-*.csv
+src/data/*.csv
 __pycache__/
 *.py[cod]
 .venv
