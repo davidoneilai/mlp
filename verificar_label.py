@@ -51,7 +51,7 @@ async def main():
     gemini = AsyncGEMINI(
         model=MODEL_NAME,
         concurrency=CONCURRENCY,
-        api_key=""
+        api_key="AIzaSyA23s5ZDPB1GPT1B1sXlr6jQQQzQg6w0D8"
     )
     await gemini.async_init()
 
@@ -59,7 +59,6 @@ async def main():
     shirt_idxs = [i for i, ex in enumerate(ds) if ex["label"] == LABEL_OF_INTEREST]
     print(f"{len(shirt_idxs)} imagens 'Shirt' para verificar.")
 
-    #  ids já processados (caso exista um JSONL parcial)
     done = set()
     if OUT_JSONL.exists():
         with OUT_JSONL.open() as f:
